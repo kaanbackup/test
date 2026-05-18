@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portföy | Ahmet Yılmaz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="container header-container">
+            <h1 class="logo">AY<span>.</span></h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#hero">Ana Sayfa</a></li>
+                    <li><a href="#about">Hakkımda</a></li>
+                    <li><a href="#projects">Projeler</a></li>
+                    <li><a href="#skills">Yetenekler</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span><span></span><span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="hero" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting">Merhaba, ben</p>
+                <h1>Ahmet Yılmaz</h1>
+                <h2>Frontend Geliştirici</h2>
+                <p class="hero-desc">Modern, kullanıcı dostu ve etkileyici web arayüzleri oluşturuyorum.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Projelerim</a>
+                    <a href="#contact" class="btn btn-secondary">İletişim</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="avatar-placeholder">
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Hakkımda</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="avatar-placeholder large">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>
+                        Merhaba! Ben Ahmet. 5 yıldır frontend geliştirme alanında çalışıyorum. 
+                        Kullanıcı deneyimini ön planda tutan, temiz ve sürdürülebilir kod yazmaya özen gösteriyorum.
+                    </p>
+                    <p>
+                        HTML, CSS ve JavaScript ile modern web arayüzleri geliştiriyorum. 
+                        React, Vue.js ve TailwindCSS gibi araçlarla çalışıyorum.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Yıl Deneyim</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">40+</span>
+                            <span class="stat-label">Proje</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">20+</span>
+                            <span class="stat-label">Mutlu Müşteri</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projelerim</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>E-Ticaret Sitesi</h3>
+                    <p>React ile geliştirilmiş, ürün yönetimi ve sepete ekleme özellikli modern alışveriş platformu.</p>
+                    <div class="project-tags">
+                        <span>React</span><span>Node.js</span><span>MongoDB</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fab fa-github"></i> Kod</a>
+                        <a href="#"><i class="fas fa-external-link-alt"></i> Canlı</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-cloud-sun"></i>
+                    </div>
+                    <h3>Hava Durumu Uygulaması</h3>
+                    <p>OpenWeather API kullanılarak yapılmış, anlık hava durumu bilgisi ve 5 günlük tahmin sunan uygulama.</p>
+                    <div class="project-tags">
+                        <span>JavaScript</span><span>REST API</span><span>CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fab fa-github"></i> Kod</a>
+                        <a href="#"><i class="fas fa-external-link-alt"></i> Canlı</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3>Todo App</h3>
+                    <p>Kullanıcıların görev ekleyip silebildiği, localStorage ile veri kaybını önleyen görev yönetim uygulaması.</p>
+                    <div class="project-tags">
+                        <span>Vue.js</span><span>SCSS</span><span>LocalStorage</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fab fa-github"></i> Kod</a>
+                        <a href="#"><i class="fas fa-external-link-alt"></i> Canlı</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-blog"></i>
+                    </div>
+                    <h3>Kişisel Blog</h3>
+                    <p>Next.js ile oluşturulmuş, markdown destekli, SEO dostu kişisel blog platformu.</p>
+                    <div class="project-tags">
+                        <span>Next.js</span><span>Markdown</span><span>Tailwind</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fab fa-github"></i> Kod</a>
+                        <a href="#"><i class="fas fa-external-link-alt"></i> Canlı</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Müzik Çalar</h3>
+                    <p>HTML5 Audio API ile yapılmış, çalma listesi ve gezinme özellikli basit müzik çalar arayüzü.</p>
+                    <div class="project-tags">
+                        <span>HTML5</span><span>CSS</span><span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fab fa-github"></i> Kod</a>
+                        <a href="#"><i class="fas fa-external-link-alt"></i> Canlı</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Dashboard Panel</h3>
+                    <p>Chart.js ile grafikler içeren, koyu/açık tema destekli yönetici paneli arayüzü.</p>
+                    <div class="project-tags">
+                        <span>React</span><span>Chart.js</span><span>SCSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fab fa-github"></i> Kod</a>
+                        <a href="#"><i class="fas fa-external-link-alt"></i> Canlı</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Yetenekler</h2>
+            <div class="skills-content">
+                <div class="skill-group">
+                    <h3><i class="fas fa-code"></i> Frontend</h3>
+                    <div class="skill-bars">
+                        <div class="skill-item">
+                            <span>HTML & CSS</span>
+                            <div class="bar"><div class="fill" style="width: 95%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>JavaScript</span>
+                            <div class="bar"><div class="fill" style="width: 90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>React</span>
+                            <div class="bar"><div class="fill" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Vue.js</span>
+                            <div class="bar"><div class="fill" style="width: 75%"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3><i class="fas fa-paint-brush"></i> Tasarım</h3>
+                    <div class="skill-bars">
+                        <div class="skill-item">
+                            <span>Figma</span>
+                            <div class="bar"><div class="fill" style="width: 80%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>UI / UX</span>
+                            <div class="bar"><div class="fill" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Responsive Design</span>
+                            <div class="bar"><div class="fill" style="width: 90%"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3><i class="fas fa-tools"></i> Araçlar</h3>
+                    <div class="skill-bars">
+                        <div class="skill-item">
+                            <span>Git & GitHub</span>
+                            <div class="bar"><div class="fill" style="width: 90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Webpack</span>
+                            <div class="bar"><div class="fill" style="width: 75%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>TailwindCSS</span>
+                            <div class="bar"><div class="fill" style="width: 85%"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">İletişim</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>E-posta</h4>
+                            <p>ahmet@ornek.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Telefon</h4>
+                            <p>+90 555 123 45 67</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Konum</h4>
+                            <p>İstanbul, Türkiye</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <input type="text" placeholder="Adınız" required>
+                    <input type="email" placeholder="E-posta Adresiniz" required>
+                    <input type="text" placeholder="Konu">
+                    <textarea rows="5" placeholder="Mesajınız" required></textarea>
+                    <button type="submit" class="btn btn-primary">Gönder</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Ahmet Yılmaz. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <!-- SCROLL TO TOP -->
+    <button id="scrollToTop" class="scroll-top"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
